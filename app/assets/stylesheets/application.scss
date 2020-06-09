@@ -9,25 +9,22 @@
 /* Utilities */
 
 /* Main css */
-
-body {
+* {
   margin: 1.77em;
-  font-family: Lato ;
+  font-family: Lato;
 }
 
 a {
   text-decoration: none;
 }
 
-/* Custom design below! */
-footer {
+.footer {
   display: block;
-  height: 5rem;
+  height: 10rem;
   padding: 5rem 0;
   font-size: 1rem;
   background-color: #f7f7f7;
   text-align: center;
   border-radius: 1em;
-  margin-top: 2rem;
 }
 
