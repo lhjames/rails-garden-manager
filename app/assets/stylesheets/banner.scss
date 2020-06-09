@@ -1,0 +1,31 @@
+.banner {
+  font-weight: 300;
+  font-size: 1.5em;
+  color: white;
+  padding: 4em;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5em;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: center;
+  margin-top: 0;
+}
+#banner-btn {
+  background: #B4EDD2;
+  text-transform: uppercase;
+  font-weight: 200;
+  color: white;
+  font-size: 1em;
+  border-radius: 2em;
+  padding: 15px 25px;
+  transition: background .1s ease-in;
+}
+.banner-info p {
+  margin-bottom: 3rem;
+}
+#banner-btn:hover {
+  background: #A0C1D1;
+}

@@ -1,0 +1,40 @@
+.how-it-works {
+  margin-bottom: 1rem;
+}
+.how-it-works h2 {
+  margin-left: 1em;
+  padding: 2rem;
+  color: #77878B;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: lighter;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+}
+.card-details {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  background: #B4EDD2;
+  padding: 3em;
+  margin-left: 1em;
+  border-radius: 1em;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  transition: background .1s ease-in;
+  text-align: center;
+}
+.card-details:hover {
+  background: #A0C1D1;
+}
+.card-details img {
+  display: block;
+  margin-left: 4rem;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
